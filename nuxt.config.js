@@ -11,12 +11,17 @@ export default {
       {hid: 'description', name: 'description', content: ''},
       {name: 'format-detection', content: 'telephone=no'},
     ],
-    link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
+    link: [
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel:'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap' }
+
+    ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/bulma/style.scss'
+    '~assets/app.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -29,7 +34,11 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/svg-sprite',
   ],
+  svgSprite: {
+    input: '~/assets/sprite/svg'
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

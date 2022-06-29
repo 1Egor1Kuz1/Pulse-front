@@ -1,0 +1,20 @@
+body{
+  font-size: 16px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+.button.is-blue{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 8px 52px;
+  background-color: var(--blue);
+  color: var(--white) !important;
+  border-radius: 0;
+  border: none;
+}
+.button.is-blue:hover{
+  background: var(--dark-blue) !important;
+}
+
