@@ -13,7 +13,8 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-      {rel:'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap' }
+      {rel:'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap' },
+      {rel:'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Jura&family=Oswald:wght@300&display=swap' },
 
     ],
 
@@ -21,7 +22,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/app.scss'
+    '~assets/style/app.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -1,28 +1,35 @@
 <template>
-  <div>
-<div class="fp-bg">
-
-</div>
+  <div class="page-wrapper page-main">
+    <InviteBlock/>
+    <AboutBlock/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import InviteBlock from '@/components/main-page/_InviteBlock';
+import AboutBlock from '@/components/main-page/_AboutBlock';
 
 export default Vue.extend({
   name: 'IndexPage',
+  components:{
+    InviteBlock,
+    AboutBlock
+  },
 })
 </script>
 
-<style>
-.fp-bg{
-  background-image: url("assets/images/space_bg 1.png");
-  background-size: cover;
-  background-position: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+<style  lang="scss">
+.page-main{
+  &__section {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+  }
 }
+
+
 </style>

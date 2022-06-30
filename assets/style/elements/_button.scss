@@ -1,0 +1,19 @@
+.button{
+  font-family: 'Jura';
+  font-size: 16px;
+  line-height: 120.8%;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 0;
+  &:hover{
+    background: $dark-blue;
+  }
+}
+.button.on-header{
+  font-family: 'Oswald';
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+
