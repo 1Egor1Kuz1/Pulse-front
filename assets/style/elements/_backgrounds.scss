@@ -1,0 +1,25 @@
+.fp-bg {
+  background-size: cover;
+  background-position: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.invite-section .fp-bg{
+  background-image: url("assets/images/space_bg 1.png");
+}
+.swiper-section .fp-bg{
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 50.52%, #000000 100%), url("assets/images/podlozhka_statika_bf 1.png");
+}
+.news-section .fp-bg{
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 50.52%, #000000 100%), url("assets/images/podlozhka_statika_bf 1.png");
+}
+
+.about-section .fp-bg{
+  background-image: url("assets/images/fon_s_planetoy3luna_222_2 1.png");
+  background-size: 1200px;
+}

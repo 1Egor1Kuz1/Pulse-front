@@ -2,19 +2,6 @@ body{
   font-size: 16px !important;
   font-family: 'Oswald', sans-serif !important;
 }
-.page-wrapper{
-  -ms-flex-direction: column;
-  flex-direction: column;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  color: var(--white);
-}
-.is-fullvh{
-  height: 100vh;
-}
 h1,h2,h3,h4,h5,h6{
   font-family: 'Jura';
   font-style: normal;
@@ -27,31 +14,29 @@ h1,h2,h3,h4,h5,h6{
 }
 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 26px;
   letter-spacing: -0.02em;
-  align-items: center;
-  text-align: center;
+  text-align: left;
 }
-//backgrounds
-.fp-bg {
-  background-size: cover;
-  background-position: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: -1;
+.card{
+  backdrop-filter: blur(30px);
+}
+//my classes
+.is-fullvh{
+  height: 100vh;
+}
+.page-wrapper{
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: var(--white);
 }
 
-.invite-section .fp-bg{
-  background-image: url("../images/space_bg 1.png");
-}
-.about-section .fp-bg{
-  background-image: url("../images/fon_s_planetoy3luna_222_2 1.png");
-  background-size: 1200px;
-}
 
 .navbar-item.is-hoverable:hover .navbar-dropdown{
   backdrop-filter: blur(30px);
@@ -59,5 +44,6 @@ p {
 .dropdown-item{
   text-decoration: none !important;
 }
+
 
 

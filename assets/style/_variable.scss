@@ -3,10 +3,11 @@ $black: rgba(0, 0, 0, 0.7);
 $white: #ffffff;
 $primary: #0083CD;
 $dark-blue:#00659D;
+$gray: rgba(255, 255, 255, 0.1);
 
 //navbar
 $navbar-item-hover-background-color: transparent;
-$navbar-dropdown-background-color: rgba(255, 255, 255, 0.1);
+$navbar-dropdown-background-color: $gray;
 $navbar-dropdown-item-hover-color: $primary;
 $navbar-dropdown-radius: 0;
 $navbar-dropdown-border-top: none;
@@ -19,6 +20,18 @@ $button-background-color: $primary;
 $button-border-width: 0;
 $button-padding-vertical: 8px;
 $button-padding-horizontal: 52px;
+
+//card
+$card-background-color: $gray;
+$card-header-background-color: none;
+$card-color: $white;
+$card-header-shadow: none;
+$card-shadow: none;
+$card-radius: 1px;
+$card-footer-border-top: none;
+//$card-header-padding: 10px 20px 0;
+$card-content-padding: 20px;
+//$card-footer-padding: 0 20px 10px;
 
 
 

@@ -101,9 +101,7 @@ export default {
     }
     p{
       font-family: 'Jura';
-      font-size: 22px;
       font-weight: 700;
-      text-align: left;
     }
 
     &_wrapper {

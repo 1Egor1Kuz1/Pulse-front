@@ -2,6 +2,8 @@
   <div class="page-wrapper page-main">
     <InviteBlock/>
     <AboutBlock/>
+    <SwiperBlock/>
+    <NewsBlock/>
   </div>
 </template>
 
@@ -9,18 +11,22 @@
 import Vue from 'vue'
 import InviteBlock from '@/components/main-page/_InviteBlock';
 import AboutBlock from '@/components/main-page/_AboutBlock';
+import SwiperBlock from '@/components/main-page/_SwiperBlock';
+import NewsBlock from '@/components/main-page/_NewsBlock';
 
 export default Vue.extend({
   name: 'IndexPage',
-  components:{
+  components: {
     InviteBlock,
-    AboutBlock
+    AboutBlock,
+    SwiperBlock,
+    NewsBlock,
   },
 })
 </script>
 
-<style  lang="scss">
-.page-main{
+<style lang="scss">
+.page-main {
   &__section {
     position: relative;
     display: -ms-flexbox;

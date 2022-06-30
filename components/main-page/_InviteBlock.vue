@@ -65,6 +65,8 @@ export default {
       justify-content: center;
       margin: 20px 50px 40px;
       display: flex;
+      font-size: 16px;
+      text-align: center;
     }
 
     button {
